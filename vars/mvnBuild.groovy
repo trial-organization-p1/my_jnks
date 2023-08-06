@@ -1,3 +1,3 @@
 def mvnBui(){
-  sh 'mvn clean build'
+  sh 'mvn clean install'
 }
