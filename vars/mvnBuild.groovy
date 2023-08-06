@@ -1,3 +1,6 @@
-def mvnBui(){
-  sh 'mvn clean install'
+def call(){
+ echo "Building java project"
+  sh '''
+  mvn clean install
+  '''
 }
